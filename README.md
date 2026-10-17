@@ -201,9 +201,9 @@ def extract_api(**kwargs):
     return final_df.to_json(orient='records')
 def load_bronze(**kwargs):
     conn = snowflake.connector.connect(
-        user='HANNAS',
-        password='Wfbasiti2010',
-        account='SRPYHKK-RV07434',
+        user='Han***',
+        password='*****',
+        account='SRPYHKK-***',
         warehouse='MY_WH',
         database='MY_LAKE',
         schema='BRONZE'

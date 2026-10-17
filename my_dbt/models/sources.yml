@@ -1,0 +1,7 @@
+version: 2
+sources:
+    - name: bronze
+    database: MY_LAKE
+    schema: BRONZE
+    tables:
+            - name: finance_raw
